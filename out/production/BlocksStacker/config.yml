@@ -1,0 +1,27 @@
+#######################################################
+##                                                   ##
+##                   BlocksStacker                   ##
+##                   Made by Ome_R                   ##
+##                                                   ##
+#######################################################
+
+# Thank you for using BlocksStacker! If you want to check out more plugins of mine, here is a list of them:
+# WildInspect - Custom inspect mode hooked into CoreProtect :: https://www.spigotmc.org/resources/60646/
+# WildBuster - Highly configurable Chunk Buster plugin :: https://www.spigotmc.org/resources/60647/
+# WildStacker - Stacks items, mobs, spawners & blocks :: https://www.spigotmc.org/resources/60648/
+# WildTools - Trench pickaxes, harvester hoes, sell wands & more :: https://www.spigotmc.org/resources/60649/
+# WildChests - Sell chests, linked chests & large chests :: https://www.spigotmc.org/resources/62622/
+
+# A list of all blocks to be stacked. Follow "TYPE" and "TYPE:DATA" formats.
+stacked-blocks:
+  - DIAMOND_BLOCK
+
+# All features related to toggleable stack mode.
+toggle-command:
+  # If you want to have a toggleable stack mode, enable this section.
+  enabled: false
+  # The toggle command
+  command: 'blocks toggle'
+
+# Custom name for stacked blocks. If you don't want one, set ''.
+custom-name: '&ex{0} {1}'

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BlocksStacker">
+    <output-path>D:/My Servers/WildSeries/plugins</output-path>
+    <root id="archive" name="BlocksStacker.jar">
+      <element id="module-output" name="BlocksStacker" />
+    </root>
+  </artifact>
+</component>
